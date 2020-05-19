@@ -1,0 +1,104 @@
+:root{
+  --main-bg-color:  rgb(41, 46, 65); 
+  --second-main-color: rgb(25, 30, 61);
+  --light-main-color: rgb(134, 137, 158);
+  --text-color:  rgb(190, 190, 190);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.678);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+header input {
+  width: 86%;
+  padding-left: 2%; 
+  padding-right: 2%;
+}
+
+header button {
+  width: auto;
+  padding-left: 2%; 
+  padding-right: 2%;
+  margin-left: 2%;
+  height: 28px;  
+}
+
+header input {
+  height: 28px;
+}
+
+button, input {
+  border-radius: 20px;
+  border: 2px solid var(--light-main-color);
+  background-color: var(--main-bg-color);
+  color: var(--text-color);
+  
+  padding-left: 10px; 
+  padding-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+body {
+  background-color:var(--main-bg-color);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  display: inline;
+  color: white;
+}
+
+
+main {
+  color: var(--text-color);
+  background-color: var(--main-bg-color);
+}
+
+
+main div img {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+  float:left;
+  margin-right: 20px;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+main a {
+  float: right;
+  text-decoration: none;
+  color: var(--light-main-color);
+}
+
+main button {
+  font-size: 13px;
+  padding-top: 0px;
+}
+
+.no-line-break {
+  display: inline;
+}
+
+p {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+
+#project {
+  border-bottom: 2px solid var(--light-main-color);
+  padding: 20px;
+}
+
